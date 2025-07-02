@@ -75,7 +75,7 @@ This notebook does not perform validation itself. Instead, it provides table ing
 
 ## How to Use This Repository
 
-1. Check out the repository and upload the notebooks to Databricks
+1. In your Databricks workspace click "Create" -> "Git folder" and enter this repository's URL. This will checkout the notebooks into an `edgy-validation` git folder in your workspace and provide version control capabilities.
 2. Run `edgy_s3_output_to_databricks_table.ipynb` (as needed) to load Edgy outputs data into a Databricks table.
 3. Choose the appropriate validation notebook for your workflow (backfill, BAU edge, BAU label).
 4. Follow the instructions in each notebook to run the validation. The parameters you need to update to run the validation over a different period can be found in the `Validation execution` section.
